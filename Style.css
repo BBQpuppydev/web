@@ -1,0 +1,75 @@
+body{
+    background :url("https://static.vecteezy.com/system/resources/previews/023/386/083/non_2x/environment-earth-day-in-natural-green-leaves-and-plants-used-as-spring-background-cover-page-greenery-environment-ecology-wallpaper-concept-eco-earth-day-saving-the-environment-generate-ai-free-photo.jpg") ;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    box-sizing: border-box;
+}
+form{
+    width: 600px;
+    border: 2px solid black;
+    padding: 6rem;
+    background-color:rgba(173, 211, 169, 0.858);
+    border: none;
+    border-radius: 20px;
+}
+h1{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+label{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+input{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+button{
+    float: right;
+    padding: .5rem;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color:rgb(13, 13, 241,1);
+    color: white;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+a{
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+}
+.error{
+    background-color: rgb(203, 93, 93);
+    color: black;
+    padding: 10px;
+    width: 95;
+    border-radius: 5px;
+    margin: 5px auto;
+}
